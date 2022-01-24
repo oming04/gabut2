@@ -95,7 +95,7 @@ async def start_command(client: Client, message: Message):
                 ]
             ]
         )
-        (
+        reply_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("JOIN VIP", callback_data = "vip")
